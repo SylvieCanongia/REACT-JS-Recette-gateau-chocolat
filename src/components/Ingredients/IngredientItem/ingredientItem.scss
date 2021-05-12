@@ -1,0 +1,19 @@
+@use 'src/styles/vars';
+
+.ingredientItem {
+  border-block-end: 2px solid vars.$very-light-grey;
+
+  &:last-child {
+    border-block-end: none;
+  }
+
+  span {
+    background: vars.$orange;
+    border-radius: vars.$normal-radius;
+    padding: vars.$base-space vars.$small-space;
+    display: inline-block;
+    margin-block: vars.$base-space;
+    margin-left: vars.$normal-space;
+    color: vars.$white;
+  }
+}

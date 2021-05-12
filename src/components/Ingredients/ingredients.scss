@@ -1,0 +1,7 @@
+@use 'src/styles/vars';
+
+.ingredients {
+  .ingredients__list {
+    margin-block: vars.$normal-space;
+  }
+}

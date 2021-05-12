@@ -7,7 +7,7 @@
     
     img {
       width: 100%;
-      border-radius: 0 0 vars.$base-margin vars.$base-margin;
+      border-radius: 0 0 vars.$large-radius vars.$large-radius;
     }
   }
 
@@ -15,10 +15,10 @@
     background: vars.$black-transparent;
     color: vars.$white;
     position: absolute;
-    bottom: vars.$large-margin;
+    bottom: vars.$medium-space;
     left: 0;
     right: 0;
-    padding: vars.$large-margin;
+    padding: vars.$medium-space;
     text-align: center;
 
     .title__content__heading {
@@ -28,7 +28,7 @@
     }
 
     .title__content__description {
-      margin-block-start: vars.$small-margin;
+      margin-block-start: vars.$small-space;
     }
   }
 }

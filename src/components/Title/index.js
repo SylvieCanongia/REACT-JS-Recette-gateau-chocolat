@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './styles.scss';
+import './title.scss';
 
 const Title = () => (
   <header className="title">
@@ -11,7 +11,7 @@ const Title = () => (
       />
     </div>
     <div className="title__content">
-      <h1 className="title__content__heading">Je suis le titre</h1>
+      <h1 className="title__content__heading">Gâteau au chocolat</h1>
       <p className="title__content__description">Tatie crème - très facile</p>
     </div>
   </header>

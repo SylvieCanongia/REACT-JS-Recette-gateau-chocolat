@@ -3,13 +3,24 @@
 $base-font-size: 1.125em;
 $large-font-size: 2rem;
 
-// Margins
+// Spacing
 
-$small-margin: 10px;
-$base-margin: 18px;
-$large-margin: 36px;
+$base-space: 8px;
+$small-space: 16px;
+$normal-space: 24px;
+$medium-space: 32px;
 
 // Colors
 
 $black-transparent: hsla(0deg,0%,0%,0.3);
 $white: hsl(100deg, 100%, 100%);
+$chocolate: hsl(25deg, 75%, 47%);
+$orange: 	hsl(21deg, 86%, 60%);
+$dark-grey: hsl(0deg, 0%, 10%);
+$medium-grey: hsl(0deg, 0%, 40%);
+$light-grey: hsl(0deg, 0%, 60%);
+$very-light-grey: hsl(0deg, 0%, 80%);
+
+// Radius
+$normal-radius: 5px;
+$large-radius: 18px;

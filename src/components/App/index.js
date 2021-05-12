@@ -3,13 +3,14 @@ import React from 'react';
 
 // == Import
 import Title from 'src/components/Title';
+import Ingredients from 'src/components/Ingredients';
 import './styles.scss';
 
 // == Composant
 const App = () => (
   <div className="app">
     <Title />
-    <div>Ingrédients</div>
+    <Ingredients />
     <div>Steps</div>
   </div>
 );
