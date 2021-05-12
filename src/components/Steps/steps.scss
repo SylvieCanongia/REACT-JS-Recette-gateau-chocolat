@@ -1,0 +1,27 @@
+@use 'src/styles/vars';
+
+.steps {
+  background: vars.$dark-white;
+  border-radius: vars.$large-radius vars.$large-radius 0 0;
+  padding: vars.$small-space;
+
+  .steps__list {
+    &__item {
+      padding: vars.$base-space vars.$medium-space;
+      margin-block: vars.$base-space;
+      position: relative;
+    }
+
+    &__item::before {
+      content: "";
+      display: block;
+      width: 0.6rem;
+      height: 1.5px;
+      background-color: vars.$orange;
+      position: absolute;
+      left: vars.$small-space;
+      top: 50%;
+
+    }
+  }
+}

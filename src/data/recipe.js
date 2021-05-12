@@ -39,7 +39,7 @@ export default {
     'Préchauffer le four à 180°C.',
     'Faire fondre le chocolat et le beurre au bain marie.',
     'Dans un saladier, battre les œufs avec le sucre jusqu\'à ce que le mélange mousse et blanchisse.',
-    'Rajouter le beurre fondu tout en mélangeant',
+    'Rajouter le beurre fondu tout en mélangeant.',
     'Incorporer le mélange chocolat/beurre puis la farine.',
     'Une fois la pâte homogène, la verser dans un moule beurré et fariné de 24/25 cm de diamètre.',
     'Faire cuire 25 minutes environ.',

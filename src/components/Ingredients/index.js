@@ -4,7 +4,7 @@ import IngredientItem from 'src/components/Ingredients/IngredientItem';
 import './ingredients.scss';
 
 const Ingredients = () => (
-  <main className="ingredients">
+  <section className="ingredients">
     <ul className="ingredients__list">
       <IngredientItem />
       <IngredientItem />
@@ -12,7 +12,7 @@ const Ingredients = () => (
       <IngredientItem />
       <IngredientItem />
     </ul>
-  </main>
+  </section>
 );
 
 export default Ingredients;
