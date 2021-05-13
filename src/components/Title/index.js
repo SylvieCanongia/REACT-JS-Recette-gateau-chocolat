@@ -1,20 +1,34 @@
 import React from 'react';
 
+import PropTypes from 'prop-types';
+
 import './title.scss';
 
-const Title = () => (
+const Title = ({
+  title,
+  author,
+  difficulty,
+  thumbnail,
+}) => (
   <header className="title">
     <div className="title__image">
       <img
-        src="https://images.pexels.com/photos/45202/brownie-dessert-cake-sweet-45202.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        src={thumbnail}
         alt=""
       />
     </div>
     <div className="title__content">
-      <h1 className="title__content__heading">Gâteau au chocolat</h1>
-      <p className="title__content__description">Tatie crème - très facile</p>
+      <h1 className="title__content__heading">{title}</h1>
+      <p className="title__content__description">{author} - {difficulty}</p>
     </div>
   </header>
 );
+
+Title.propTypes = {
+  title: PropTypes.string.isRequired,
+  author: PropTypes.string.isRequired,
+  difficulty: PropTypes.string.isRequired,
+  thumbnail: PropTypes.string.isRequired,
+};
 
 export default Title;

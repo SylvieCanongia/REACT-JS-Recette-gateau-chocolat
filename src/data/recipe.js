@@ -1,6 +1,6 @@
 export default {
   title: 'Gâteau au chocolat',
-  thumbnail: 'https://images.pexels.com/photos/53483/strawberries-crepe-dessert-sweet-53483.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+  thumbnail: 'https://images.pexels.com/photos/45202/brownie-dessert-cake-sweet-45202.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
   author: 'Laurie Olait',
   difficulty: 'Facile',
   ingredients: [
