@@ -13,6 +13,7 @@
     }
 
     &__item::before {
+      // TODO adjust height of hyphen on small screens
       content: "";
       display: block;
       width: 0.6rem;

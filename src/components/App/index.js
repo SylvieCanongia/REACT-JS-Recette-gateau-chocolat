@@ -21,7 +21,7 @@ const App = () => (
       thumbnail={recipe.thumbnail}
     />
     <Ingredients />
-    <Steps />
+    <Steps steps={recipe.instructions} />
   </div>
 );
 
