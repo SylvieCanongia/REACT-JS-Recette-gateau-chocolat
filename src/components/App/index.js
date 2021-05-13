@@ -20,7 +20,7 @@ const App = () => (
       difficulty={recipe.difficulty}
       thumbnail={recipe.thumbnail}
     />
-    <Ingredients />
+    <Ingredients ingredients={recipe.ingredients} />
     <Steps steps={recipe.instructions} />
   </div>
 );
